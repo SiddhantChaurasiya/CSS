@@ -1,0 +1,47 @@
+body{
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #9e9b9b;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #c0bdbd;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #8b8787;
+}
