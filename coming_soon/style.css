@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    height: 100%;
+}
+
+.container{
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    width: 150px;
+    /* height: 75px; */
+    object-fit: contain;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"]{
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+    background-color: #130224;
+    transition: 0.5s ease;
+}
+
+svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
